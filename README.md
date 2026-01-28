@@ -57,3 +57,15 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## 🔄 Server-Side Rendering (SSR) / Static Site Generation (SSG)
+
+COREX está diseñado como una arquitectura base para aplicaciones Angular modulares y escalables. Por defecto, **SSR y SSG no están habilitados**, lo que mantiene el proyecto más ligero y ágil para aplicaciones SPA (Single Page Application).
+
+### ➕ ¿Necesitas SEO o prerenderizado?
+
+Puedes agregar soporte para SSR/SSG en cualquier momento ejecutando:
+
+```bash
+ng add @nguniversal/express-engine
+```
