@@ -1,3 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-
 @use './styles/variables' as *;
+
+/* === Tailwind CSS === */
+@import "tailwindcss";
+
+/* === Estilos globales SCSS === */
+/* Aquí puedes definir estilos que afecten a toda tu app Angular */
+
+
+
